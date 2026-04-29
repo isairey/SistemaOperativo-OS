@@ -1,30 +1,172 @@
-# KiddieOS_Development
-O KiddieOS é um sistema operacional open-source básico em desenvolvimento pelo curso gratuito D.S.O.S [Desenvolvendo Sistemas Operacionais Simples]. A intenção deste sistema será: Criar, editar ou excluir arquivos, codificar em uma linguagem própria do sistema, criar objetos visuais e automatizados (desenhos) através desta linguagem, utilizar uma interface simples e intuitiva, criar novas interfaces gráficas, como: Janelas, botões, campos, etc... e estimular crianças, jovens e adultos a programar numa linguagem simples dentro do sistema operacional KiddieOS. A intenção do curso D.S.O.S é dá início ao desenvolvimento de sistemas operacionais utilizando a linguagem Assembly e entender a fundo sobre diversos conceitos internos deste tipo de sistema. Aqui neste repositório serão armazenados arquivos de APIs do KiddieOS, a imagem de disco para teste e futuramente - todo o sistema operacional completo. Visite o link abaixo para nos acompanhar no curso do Youtube, se inscreva neste canal para se manter atualizado e siga-me no GitHub. Vejo vocês lá:
+# 🖥️⚙️ KiddieOS | Sistema Operativo Educativo en Desarrollo
 
-[Clique aqui e aprenda a criar SOs no Curso D.S.O.S](https://www.youtube.com/playlist?list=PLsoiO2Be-2z8BfsSkspJfDiuKeC9-LSca)
+**KiddieOS** es un sistema operativo open-source en desarrollo, diseñado con fines educativos para introducir a niños, jóvenes y desarrolladores en los fundamentos de la programación de bajo nivel y la arquitectura de sistemas operativos.
 
-Veja as atualizações e o progresso do projeto logo abaixo:
+El proyecto forma parte del curso **D.S.O.S (Desarrollando Sistemas Operativos Simples)**, enfocado en enseñar desde cero el desarrollo de sistemas utilizando **Assembly** y conceptos fundamentales del funcionamiento interno de un sistema operativo.
 
-## KiddieOS Versão 1.1.0
+---
 
-[Etapa 1 =>](https://github.com/FrancisBFTC/KiddieOS_Development)
- Esta etapa é relacionada ao desenvolvimento da Interface gráfica com efeito 3D e algumas atualizações na lib da interface móvel e redimensionável. Inclue também o otimizador de testes do desenvolvimento.
+## 📌 Descripción
 
-[Etapa 2 =>](https://github.com/FrancisBFTC/KiddieOS_Development/tree/Version_1-1-0_Step_2)
- Criação do Driver de teclado, arquivo de fontes nativas de texto do KiddieOS e Início do desenvolvimento do sistema de escrita de textos.
- 
- [Etapa 3 =>](https://github.com/FrancisBFTC/KiddieOS_Development/tree/Version_1-1-0_Step_3)
- Atualização do win3dmov.lib com a chamada driver de teclado com rotinas de atualização das posições interativas e finalização do desenvolvimento 
- do sistema de escrita.
- 
- [Etapa 4 =>](https://github.com/FrancisBFTC/KiddieOS_Development/tree/Version_1-1-0_Step_4)
-  Implementação do cursor piscante nos elementos de texto, Controle do Capslock para exibição de caracteres LowerCase/UpperCase, Atualização do arquivo de fontes (LowerCase, UpperCase & AsciiCode) e rotina de conversão para ascii code durante o armazenamento de caracteres nos campos de textos.
+KiddieOS busca ser un entorno simple pero potente que permita:
 
- 
-## KiddieOS Versão 1.2.0
+- 📁 Crear, editar y eliminar archivos  
+- 🧠 Programar en un lenguaje propio del sistema  
+- 🎨 Generar elementos visuales automatizados  
+- 🪟 Construir interfaces gráficas (ventanas, botones, inputs)  
+- 📚 Aprender cómo funciona un sistema operativo desde cero  
 
-[Etapa 1 =>](https://github.com/FrancisBFTC/KiddieOS_Development/tree/Version_1-2-0_Step_1)
- Desenvolvimento do Driver serial, rotinas de manipulação com teclas para comunicação serial e o código serial do arduino.
+Todo esto dentro de una interfaz intuitiva y accesible para usuarios sin experiencia previa.
 
-[Etapa 2 =>](https://github.com/FrancisBFTC/KiddieOS_Development/tree/Version_1-2-0_Step_2)
- Nesta segunda etapa da versão 1.2.0 é implementado o sistema de arquivos FAT16 + o interpretador de comandos do Shell com interface personalizada. Aqui pode ser acessado diretórios e arquivos através de comandos no Shell.
+---
+
+## 🎯 Objetivo
+
+El propósito de KiddieOS es:
+
+- 🧠 Facilitar el aprendizaje de sistemas operativos  
+- ⚙️ Comprender el funcionamiento interno del hardware y software  
+- 💻 Introducir la programación en bajo nivel (Assembly)  
+- 🚀 Fomentar la creación de software desde cero  
+
+---
+
+## 🚀 Características principales
+
+- 🖥️ Interfaz gráfica simple e intuitiva  
+- 📁 Sistema de archivos básico  
+- ⌨️ Controladores de entrada (teclado)  
+- 🧾 Sistema de escritura de texto  
+- 🔤 Manejo de fuentes y ASCII  
+- 🪟 Elementos gráficos dinámicos  
+- 🔌 Comunicación serial (Arduino)  
+- 🖥️ Shell con comandos personalizados  
+
+---
+
+## 🧠 Enfoque de Desarrollo
+
+El sistema está construido bajo principios de:
+
+- ⚙️ Programación de bajo nivel  
+- 🧩 Modularidad  
+- 🔄 Reutilización de componentes  
+- 📊 Optimización de recursos  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Assembly** → Desarrollo del sistema operativo  
+- **Lenguaje de bajo nivel** → Control directo del hardware  
+- **Arduino (opcional)** → Comunicación serial  
+- **FAT16** → Sistema de archivos  
+
+---
+
+## 📂 Estructura del repositorio
+
+```
+KiddieOS_Development/
+│
+├── 📁 libs/ # Librerías del sistema
+├── 📁 drivers/ # Controladores (teclado, serial)
+├── 📁 shell/ # Intérprete de comandos
+├── 📁 filesystem/ # Implementación FAT16
+├── 📁 disk_image/ # Imagen del sistema
+├── README.md
+```
+
+
+
+---
+
+## 📊 Progreso del proyecto
+
+### 🔹 Versión 1.1.0
+
+**Etapa 1**
+- Interfaz gráfica con efectos 3D  
+- Librerías de UI mejoradas  
+- Optimización del entorno de pruebas  
+
+**Etapa 2**
+- Desarrollo del driver de teclado  
+- Sistema de fuentes nativas  
+- Inicio del sistema de escritura  
+
+**Etapa 3**
+- Integración teclado + interfaz  
+- Actualización de interacciones  
+- Finalización del sistema de texto  
+
+**Etapa 4**
+- Cursor dinámico  
+- Soporte para mayúsculas/minúsculas  
+- Conversión a ASCII  
+- Mejora del sistema de fuentes  
+
+---
+
+### 🔹 Versión 1.2.0
+
+**Etapa 1**
+- Driver de comunicación serial  
+- Integración con Arduino  
+- Control mediante teclado  
+
+**Etapa 2**
+- Implementación del sistema de archivos FAT16  
+- Desarrollo de Shell personalizado  
+- Navegación por archivos mediante comandos  
+
+---
+
+## 💡 Funcionamiento
+
+El sistema opera directamente sobre una imagen de disco, donde:
+
+1. ⚙️ Se inicializa el entorno base  
+2. 🖥️ Se carga la interfaz gráfica  
+3. ⌨️ Se habilitan dispositivos de entrada  
+4. 📁 Se accede al sistema de archivos  
+5. 💻 Se ejecutan comandos mediante el Shell  
+
+---
+
+## 📈 Futuro del proyecto
+
+- 🪟 Sistema de ventanas completo  
+- 🧠 Lenguaje propio del sistema  
+- 🎨 Editor gráfico integrado  
+- 🌐 Conectividad avanzada  
+- ⚡ Mejor rendimiento y optimización  
+
+---
+
+## ⚠️ Nota
+
+KiddieOS es un proyecto en desarrollo con fines educativos. Algunas funcionalidades pueden estar incompletas o en fase experimental.
+
+---
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas:
+
+1. Fork del repositorio  
+2. Crear nueva rama  
+3. Realizar cambios  
+4. Enviar Pull Request  
+
+---
+
+## 📄 Licencia
+
+Proyecto open-source con fines educativos.
+
+---
+
+## 👨‍💻 Autor
+
+Adaptado y presentado por **Isai Reyes Peña**
