@@ -1,0 +1,24 @@
+1. Baixe o NASM deste site:
+https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/
+
+2. Baixe o RmPrubUSB deste site:
+https://www.rmprepusb.com/documents/rmprepusb-beta-versions
+Obs.: Senha pra descompactar: rmprep
+
+3. Baixe o FergoRaw deste site:
+https://www.fergonez.net/softwares/fraw
+Obs.: Na pasta "Tools" também tem o arquivo RAR do FergoRaw.
+
+4. Execute o arquivo "install.bat" como ADMINISTRADOR
+5. Descompacte o arquivo APIs-FERGORAW.
+6. Siga os passos de correção do FergoRaw do arquivo "LEIAME.txt"
+   da pasta "APIs-FERGORAW".
+
+OPÇÕES SEM FERGORAW:
+
+1. Extraia o arquivo AUTOGEN.rar
+2. Execute install.bat
+3. Extraia o arquivo ImDiskTk-x64
+4. Execute install.bat
+
+Agora é so executar o Autogen.bat do repositório raiz. :D
